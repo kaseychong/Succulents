@@ -15,13 +15,13 @@ class Header extends Component {
                     <h1>Sucker for Succulents</h1>
                         <div className="col">
                             <Nav id="topnav" navbar>
-                                <NavLink href="#home">
-                                    <i className="fa fa-home fa-lg" /> Home
+                                <NavLink className="nav-link" href="/home">
+                                    <i className="fa fa-houzz fa-lg" /> Home
                                     </NavLink>
-                                <NavLink href="#succulents">
+                                <NavLink className="nav-link" href="/succulents">
                                     <i className="fa fa-leaf fa-lg" /> Succulents
                                     </NavLink>
-                                <NavLink href="#about">
+                                <NavLink className="nav-link" href="/about">
                                     <i className="fa fa-info-circle fa-lg" /> About Us
                                     </NavLink>
                             </Nav>
