@@ -1,5 +1,27 @@
 .App {
   text-align: center;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+#homecontainer {
+  background-image: url('./shared/wood-background.jpg');
+  height: 100vh;
+  background-size: cover;
+}
+
+#succulentscontainer {
+  background-image: url('./shared/coding-and-succulents.jpg');
+  height: 100vh;
+  background-size: cover;
+}
+
+#aboutcontainer {
+  background-image: url('./shared/white-background.jpg');
+  height: 100vh;
+  background-size: cover;
 }
 
 .App-logo {
@@ -35,4 +57,42 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+  color: white;
+}
+
+h2 {
+  color: black;
+}
+
+.card-img-overlay h5 {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}
+
+.site-footer {
+  background-image: linear-gradient(rgb(110, 192, 172), white);
+  padding: 20px 0;
+}
+
+.navbar-dark {
+  background-color: rgb(110, 192, 172);
+}
+
+#topnav {
+  float: right;
+  font-size: 25px;
 }
