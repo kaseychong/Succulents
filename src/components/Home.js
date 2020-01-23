@@ -24,15 +24,15 @@ function Home(props) {
                     </h5>
                 </div>
             </div>
-            <div className="row pb-4">
+            <div className="row">
                 <Card className="m-auto">
-                    <CardImg src={ baseUrl + "images/variety.jpg"} alt="succulents" />
+                    <CardImg src={ baseUrl + "images/variety.jpg"} alt="succulents varieties" />
                 </Card>
                 <Card className="m-auto">
-                    <CardImg src={ baseUrl + "images/pot-and-vase.jpg"} alt="succulents" />
+                    <CardImg src={ baseUrl + "images/pot-and-vase.jpg"} alt="succulents in vases" />
                 </Card>
                 <Card className="m-auto">
-                    <CardImg src={ baseUrl + "images/thick-petals.jpg"} alt="succulents" />
+                    <CardImg src={ baseUrl + "images/thick-petals.jpg"} alt="succulents petals" />
                 </Card>
             </div>
             <div className="row">
