@@ -1,15 +1,10 @@
 import React from 'react';
+import { Card, CardImg, CardImgOverlay, CardTitle } from 'reactstrap';
 
 function Succulents(props) {
     return (
         <div className="container-fluid" id="succulentscontainer">
             <div className="row">
-                <div className="col-md m-1">
-                </div>
-                <div className="col-md m-1">
-                </div>
-                <div className="col-md m-1">
-                </div>
             </div>
         </div>
     );

@@ -1,28 +1,32 @@
 import React from 'react';
+import Home from './Home';
+import About from './About';
+import Succulents from './SucculentInfo';
 
 function Footer(props) {
     return (
         <footer className="site-footer">
-            <div className="container">
+            <div className="container-fluid">
                 <div className="row">             
-                    <div className="col-4 col-sm-2 offset-1">
-                        <h5>Links</h5>
-                        <ul className="list-unstyled">
-                            <li to='/home'>Home</li>
-                            <li to='/succulents'>Directory</li>
-                            <li to='/about'>About Us</li>
-                        </ul>
+                    <div className="col-md text-center">
+                        <h1>Links</h1>
+                        <h3><ul className="list-unstyled">
+                            <a href="./home"><li>Home</li></a>
+                            <a href="./about"><li>About Us</li></a>
+                            <a href="./succulents"><li>Succulent Info</li></a>
+                        </ul></h3>
                     </div>
-                    <div className="col-6 col-sm-3 text-center">
-                        <h5>Social</h5>
-                        <a className="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i className="fa fa-instagram" /></a>{' '}
-                        <a className="btn btn-social-icon btn-facebook" href="http://www.facebook.com/"><i className="fa fa-facebook" /></a>{' '}
-                        <a className="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i className="fa fa-twitter" /></a>{' '}
-                        <a className="btn btn-social-icon btn-google" href="http://youtube.com/"><i className="fa fa-youtube" /></a> 
+                    <div className="col-md text-center">
+                        <h1>Social</h1>
+                        <a className="btn btn-instagram btn-lg" href="https://www.instagram.com/explore/tags/succulents/?hl=en" target="_blank"><i className="fa fa-instagram" /></a>{' '}
+                        <a className="btn btn-facebook btn-lg" href="https://www.facebook.com/groups/213771212055093/" target="_blank"><i className="fa fa-facebook" /></a>{' '}
+                        <a className="btn btn-twitter btn-lg" href="https://twitter.com/hashtag/succulent?lang=en" target="_blank"><i className="fa fa-twitter" /></a>{' '}
+                        <a className="btn btn-google btn-lg" href="http://youtube.com/" target="_blank"><i className="fa fa-youtube" /></a>
                     </div>
-                    <div className="col-sm-4 text-center">
-                        <a role="button" className="btn btn-link" href="tel:9165555555"><i className="fa fa-phone" /> 916-555-5555</a><br />
-                        <a role="button" className="btn btn-link" href="mailto:notreal@notreal.co"><i className="fa fa-envelope-o" /> kchong1989@gmail.com</a>
+                    <div className="col-md text-center">
+                        <h1>Contact</h1>
+                        <a role="button" href="tel:9165555555"><i className="fa fa-phone" /> 916-555-5555</a><br />
+                        <a role="button" href="mailto:notreal@notreal.co"><i className="fa fa-envelope-o" /> kchong1989@gmail.com</a>
                     </div>
                 </div>
             </div>

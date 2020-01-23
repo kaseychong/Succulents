@@ -5,6 +5,7 @@ import Footer from './Footer';
 import Home from './Home';
 import About from './About';
 import Succulents from './SucculentInfo';
+import { Switch, Route, Redirect, withRouter } from 'react-router-dom';
 
 class Main extends Component{
 
@@ -16,13 +17,16 @@ class Main extends Component{
         return(
             <div className="container-fluid p-0" >
                 <Header />
-                <Home />
-                <About />
-                <Succulents />
+                <Switch>
+                    <Route exact path='/home' render={() => <Home /> } />
+                    <Route exact path='/about' render={() => <About /> } />
+                    <Route exact path='/succulents' render={() => <Succulents /> } />
+                    <Redirect to='./home' />
+                </Switch>
                 <Footer />
             </div>
         );
     }
 }
 
-export default Main;
+export default withRouter(Main);

@@ -8,7 +8,7 @@
 
 #homecontainer {
   background-image: url('./shared/wood-background.jpg');
-  height: 100vh;
+  height: auto;
   background-size: cover;
 }
 
@@ -24,41 +24,6 @@
   background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 body {
   font-family: 'Shadows Into Light', cursive;
 }
@@ -66,10 +31,41 @@ body {
 h1 {
   font-family: 'Amatic SC', cursive;
   color: white;
+  font-size: 45px;
+  text-shadow: 2px 2px 2px #282c34;
 }
 
 h2 {
   color: black;
+  font-size: 35px;
+  text-shadow: 2px 2px 2px #f5f5f5;
+  font-weight: bold;
+}
+
+h3 {
+  color: white;
+  font-size: 20px;
+  font-family: 'Shadows Into Light', cursive;
+  text-shadow: 2px 2px 2px #282c34;
+}
+
+h4 {
+  color: white;
+  font-size: 100px;
+  font-family: 'Amatic SC', cursive;
+  text-shadow: 2px 5px 2px #282c34;
+}
+
+h5 {
+  color:white;
+  font-size: 55px;
+  text-shadow: 2px 3px 2px #282c34;
+}
+
+h6 {
+  color: black;
+  font-size: 35px;
+  text-shadow: 2px 2px 2px #f5f5f5;
 }
 
 .card-img-overlay h5 {
@@ -84,7 +80,7 @@ h2 {
 }
 
 .site-footer {
-  background-image: linear-gradient(rgb(110, 192, 172), white);
+  background-image: linear-gradient(rgb(110, 192, 172), rgb(2, 129, 91));
   padding: 20px 0;
 }
 
@@ -95,4 +91,19 @@ h2 {
 #topnav {
   float: right;
   font-size: 25px;
+}
+
+a {
+  color: #FFF;
+  font-size: 25px;
+}
+
+a:hover {
+   color: rgb(0, 225, 255)
+}
+
+.card {
+  height: auto;
+  width: 30%;
+  border-width: 3px;
 }
