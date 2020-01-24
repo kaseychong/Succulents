@@ -120,6 +120,12 @@ a:hover {
   border-width: 3px;
 }
 
+/* #inlaycard {
+  height: auto;
+  width: 100%;
+  border-width: 2px;
+} */
+
 #cardtext {
   color: black;
   font-size: 30px;
@@ -129,4 +135,16 @@ a:hover {
 
 .card-body {
   background-color: white;
+}
+
+#ending {
+  color: black;
+  font-size: 45px;
+  text-shadow: 1px 1px 2px rgb(110, 192, 172);
+}
+
+#disclosure {
+  color: gray;
+  font-size: 15px;
+  text-shadow: 1px 1px 2px rgb(110, 192, 172);
 }
