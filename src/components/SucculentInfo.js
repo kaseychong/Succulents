@@ -8,7 +8,7 @@ function Succulents(props) {
             <div className="row">
                 <div className="col-md text-center mb-5 mt-5">
                     <h4>
-                        Succulent 101
+                        Succulents 101
                     </h4>
                 </div>
             </div>
@@ -75,40 +75,40 @@ function Succulents(props) {
                             <CardText>
                             <p>
                                 The word "succulent" comes from the Latin word "succus," which means sap or juice. Succulents are plants that have thick fleshy parts, an adaption from arid climates or soil conditions. This adaptation helps the plant retain water and use it when it needs it, much like a cactus does in the desert--and yes, cactus plants are indeed succulents!
-                            </p>
-                                <Card className="mx-auto mb-5">
+                            </p><br></br>
+                                <Card className="mx-auto mb-4">
                                     <CardImg src={baseUrl + "images/window-sill.jpg"} alt="succulents" />
                                 </Card>
-                            <p>
+                            <p><br></br>
                                 Succulent plants come in a vast array or colors, shapes, sizes, and species. There are more than 60 different plant families under the succulent tree! So, your coworker’s green succulent on their office desk is just a small, very small, branch of the succulent family tree.
-                            </p>
-                                <Card className="mx-auto mb-5">
+                            </p><br></br>
+                                <Card className="mx-auto mb-4">
                                     <CardImg src={baseUrl + "images/assorted-colors.jpg"} alt="succulents" />
                                 </Card>
-                            <p>
+                            <p><br></br>
                                 Cactus, stone plants, aloe vera, agave, the Baobab tree (the largest succulent plant in the world) are just a small fraction of succulents in the world. There are about 2000 species of succulents—each with their own unique colors, shapes, and properties. 
-                            </p>
-                                <Card className="mx-auto mb-5">
+                            </p><br></br>
+                                <Card className="mx-auto mb-4">
                                     <CardImg src={baseUrl + "images/plants.jpg"} alt="succulents" />
                                 </Card>
-                            <p>
+                            <p><br></br>
                                 Succulents grow on every continent except Antarctica. Africa, in particular, has the most species of succulent plants. I mentioned the Baobab tree earlier—this plant grows natively in Africa and is nicknamed the Upside Down Tree. Natives tell of a legend that the god Thora did not like this tree in his garden. He pulled the tree out of the ground, roots and all, and threw it down below to Earth, where it landed upside down. Thus, the Upside Down tree was born. Fascinating, right?!
-                            </p>
-                                <Card className="mx-auto mb-5">
+                            </p><br></br>
+                                <Card className="mx-auto mb-4">
                                     <CardImg src={baseUrl + "images/baobab.jpg"} alt="Baobab Tree" />
                                     <CardTitle className="text-center">Baobab Tree</CardTitle>
                                 </Card>
-                            <p>
+                            <p><br></br>
                                 Let’s talk more about the special adaptation succulents have—their thick fleshy parts. Whether it be the plant’s leaves, stem, or even trunk, these thick parts have adapted to store water. Wildlife has learned that this adaptation is their potential lifeline when drought hits. During dry periods, wildlife will seek out certain succulent plants, like cactus or the Baobab tree, to drink the water stored inside. 
-                            </p>
-                                <Card className="mx-auto mb-5">
+                            </p><br></br>
+                                <Card className="mx-auto mb-4">
                                     <CardImg src={baseUrl + "images/pig-cactus.jpg"} alt="Wild javelina eating a cactus" />
                                     <CardTitle className="text-center">Wild javelina eating a cactus</CardTitle>
                                 </Card>
-                            <p>
+                            <p><br></br>
                                 But succulents don’t just thrive outdoors in the wild. They make excellent house plants as well! Minimum effort is needed to keep them alive: water sparingly and place in a spot that provides bright, indirect sunlight. You should also make sure the pot or container the plant is in has drainage holes at the bottom. That way, water doesn’t get trapped and the roots don’t sit in water. Following these tips will ensure your succulent is happy and healthy indoors for you and your houseguest to appreciate!
-                            </p>
-                                <Card className="mx-auto mb-4">
+                            </p><br></br>
+                                <Card className="mx-auto mb-5">
                                     <CardImg src={baseUrl + "images/potting.jpg"} alt="Potting a Zz Plant" />
                                     <CardTitle className="text-center">Potting a Zz Plant <br></br>(zanzibar gem)</CardTitle>
                                 </Card>

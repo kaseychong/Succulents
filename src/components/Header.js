@@ -15,9 +15,6 @@ function Header() {
                         <NavLink className="nav-link" href="/succulents">
                             <i className="fa fa-leaf fa-lg" /> Succulents
                         </NavLink>
-                        <NavLink className="nav-link" href="/about">
-                            <i className="fa fa-info-circle fa-lg" /> About Us
-                        </NavLink>
                     </Nav>
                 </div>
             </Navbar>

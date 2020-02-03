@@ -1,6 +1,5 @@
 import React from 'react';
 import Home from './Home';
-import About from './About';
 import Succulents from './SucculentInfo';
 
 function Footer(props) {
@@ -13,7 +12,6 @@ function Footer(props) {
                         <h3><ul className="list-unstyled">
                             <a href="./home"><li>Home</li></a>
                             <a href="./succulents"><li>Succulent Info</li></a>
-                            <a href="./about"><li>About Us</li></a>
                         </ul></h3>
                     </div>
                     <div className="col-md text-center">

@@ -37,7 +37,7 @@ function Home(props) {
             </div>
             <div className="row">
                 <div className="col-md text-center p-4">
-                        <h6>To find out more about succulents, visit the <a href="/succulents">"Succulents"</a> page.</h6>
+                        <h6>To find out more about succulents, visit our <a href="/succulents">"Succulents"</a> page.</h6>
                 </div>
             </div>
         </div>
